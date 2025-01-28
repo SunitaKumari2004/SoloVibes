@@ -1,0 +1,121 @@
+{
+  "posts": [
+    {
+      "id": 1,
+      "title": "json-server",
+      "author": "typicode"
+    }
+  ],
+  "msgData": [
+    {
+      "id": 1,
+      "name": "siya mehta",
+      "email": "msiya1606@gmail.com",
+      "subject": "about my house",
+      "message": "i am planing for my dream house so contact me "
+    },
+    {
+      "id": 2,
+      "name": "riya mehta",
+      "email": "mriya1606@gmail.com",
+      "subject": "about my house",
+      "message": "i am planing for my dream house so contact me "
+    },
+    {
+      "name": "siniya",
+      "email": "msiya1606@gmail.com",
+      "subject": "about my house",
+      "message": "nbxjhchb ",
+      "id": 3
+    },
+    {
+      "name": "sunita",
+      "email": "angelsunita23468@gmail.com",
+      "subject": "sdfsd",
+      "message": "sdfsdf",
+      "id": 4
+    },
+    {
+      "name": "MAHIMA KUMARI",
+      "email": "biltukumarmahto@gmail.com",
+      "subject": "hygsfhjodjjdfutfdwyu",
+      "message": "utwtfdidfgh",
+      "id": 5
+    }
+  ],
+  "bookingData": [
+    {
+      "name": "sunita",
+      "email": "angelsunita23468@gmail.com",
+      "date": "12-10-2023",
+      "Destination": "2",
+      "textarea": "uiwoshuhshufuyfgh",
+      "id": 1
+    },
+    {
+      "name": "sunita",
+      "email": "angelsunita23468@gmail.com",
+      "date": "12-10-2023",
+      "Destination": "2",
+      "textarea": "jshujvbxz,hjksb",
+      "id": 2
+    },
+    {
+      "name": "meena",
+      "email": "ghdsjdgch",
+      "date": "12-12-2023",
+      "Destination": "2",
+      "textarea": "jukdyrahgwsdg",
+      "id": 3
+    },
+    {
+      "name": "MAHIMA KUMARI",
+      "email": "biltukumarmahto@gmail.com",
+      "date": "01",
+      "Destination": "2",
+      "textarea": "jjcfatghcjka",
+      "id": 4
+    },
+    {
+      "name": "siya",
+      "email": "angelsunita2468@gmail.com",
+      "date": "12-12-2023",
+      "Destination": "2",
+      "textarea": "hgtashvkagsdji",
+      "id": 5
+    },
+    {
+      "name": "raman",
+      "email": "angelsunita2468@gmail.com",
+      "date": "12-12-2023",
+      "Destination": "2",
+      "textarea": "ytfdsdfghjkbv",
+      "id": 6
+    }
+  ],
+  "user": [
+    {
+      "id": 1001,
+      "user_name": "siya kumari",
+      "email": "msiya1606@gmail.com",
+      "mobile": "8989898989",
+      "password": "1234"
+    },
+    {
+      "name": "siya",
+      "email": "rkmforyou@hotmail.com",
+      "mobile": "8987736795",
+      "dob": "2024-03-21",
+      "password": "1234",
+      "id": 1002
+    },
+    {
+      "name": "siya",
+      "email": "rkmforyou@hotmail.com",
+      "mobile": "8987736795",
+      "dob": "2024-03-21",
+      "password": "1234",
+      "id": 1003
+    }
+  ]
+}

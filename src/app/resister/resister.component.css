@@ -1,0 +1,9 @@
+.signup{
+    /* background: linear-gradient(rgba(15, 23, 43, .7), rgba(15, 23, 43, .7)), url(../img/bookingback.webp); */
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background: radial-gradient(circle, rgba(151,244,52,1) 0%, rgb(29, 101, 236) 100%);
+    box-shadow: 5px 5px 5px rgb(52, 129, 244);
+    
+}

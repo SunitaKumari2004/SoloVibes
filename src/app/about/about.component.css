@@ -1,0 +1,28 @@
+.aimage img{
+    /* background: url(../about/img/bg-hero.jpg); */
+    background: url(bg-hero.jpg);
+    width: 100% !important;
+    height: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+} 
+ 
+.team-item img {
+    transition: .5s;
+}
+
+.team-item:hover img {
+    transform: scale(1.1);
+}
+
+.team-item .btn {
+    background: #FFFFFF;
+    color:blue;
+    border-radius: 20px;
+    border-bottom: 1px solid var(--primary);
+}
+
+.team-item .btn:hover {
+    background-color: blue;
+    color: #FFFFFF;
+}

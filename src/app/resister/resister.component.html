@@ -1,0 +1,50 @@
+<hr>
+<!-- Booking Start -->
+<div class="container-xxl py-5 wow fadeInUp" data-wow-delay="0.1s" >
+    <div class="container" style="width:100%;">
+        <div class="signup p-5">
+                    <h1 class="text-white mb-3">SignUp Now</h1>
+                    <!-- #bookingform="ngForm" (ngSubmit)="getbookingdata(bookingform.value)" name="bookingform" -->
+                    <form #usersform="ngForm" (ngSubmit)="user_signup(usersform.value)">
+                        <div class="row">
+                            <div class="col">
+                                <label for="">Name</label>
+                                <input name="name" ngModel class="form-control" type="text">
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col">
+                                <label for="">Email</label>
+                                <input name="email" ngModel class="form-control" type="email">
+                            </div>
+                            <div class="col">
+                                <label for="">Mobile</label>
+                                <input name="mobile"ngModel class="form-control" type="text">
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col">
+                                <label for="">DOB</label>
+                                <input name="dob" ngModel class="form-control" type="date">
+                            </div>
+                            
+                        </div>
+                        <div class="row">
+                            <div class="col">
+                                <label for="">Password</label>
+                                <input name="password" ngModel class="form-control" type="password">
+                            </div>
+                        </div>
+                        <div class="row mt-3">
+                            <div class="col">
+                                <button (click)="showinfo()" type="menu" class="btn btn-outline-light w-100 py-3">Book
+                                    Now</button>
+                            </div>
+                        </div>
+                        
+                    </form> 
+                    <span  class="mt-2">Already Register? <a class="text-light" href="/user_login">Login Now</a></span> 
+        </div>
+    </div>
+</div>
+<!-- Booking Start -->

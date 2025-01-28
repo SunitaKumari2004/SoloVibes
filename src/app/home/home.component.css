@@ -1,0 +1,8 @@
+.hcontant{
+        /* background: transparent; */
+        background: linear-gradient(rgba(20, 20, 31, .7), rgba(20, 20, 31, .7)),  url(back.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+    
+    
+}

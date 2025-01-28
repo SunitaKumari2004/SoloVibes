@@ -1,0 +1,80 @@
+<hr>
+<!-- Booking Start -->
+<div class="container-xxl py-5 wow fadeInUp" data-wow-delay="0.1s">
+    <div class="container">
+        <div class="booking p-5">
+            <div class="row g-5 align-items-center">
+                <div class="col-md-6 text-white">
+                    <h6 class="text-white text-uppercase">Booking</h6>
+                    <h1 class="text-white mb-4">Online Booking</h1>
+                    <p class="mb-4">Tempor erat elitr rebum at clita. Diam dolor diam ipsum sit. Aliqu diam amet diam et
+                        eos. Clita erat ipsum et lorem et sit.</p>
+                    <p class="mb-4">Tempor erat elitr rebum at clita. Diam dolor diam ipsum sit. Aliqu diam amet diam et
+                        eos. Clita erat ipsum et lorem et sit, sed stet lorem sit clita duo justo magna dolore erat amet
+                    </p>
+                    <a class="btn btn-outline-light py-3 px-5 mt-2" href="">Read More</a>
+                </div>
+                <div class="col-md-6">
+                    <h1 class="text-white mb-3">Book A Tour</h1>
+                    <!-- #bookingform="ngForm" (ngSubmit)="getbookingdata(bookingform.value)" name="bookingform" -->
+                    <form #usersform="ngForm" (ngSubmit)="getformdata(usersform.value)">
+                        <div class="row g-3">
+                            <div class="col-md-6">
+                                <div class="form-floating">
+                                    <input #box1 type="text" ngModel name="name"
+                                        class="form-control bg-transparent text-light" id="name"
+                                        placeholder="Your Name">
+                                    <label class="text-white bg-transparent" for="name">Your Name</label>
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+                                <div class="form-floating">
+                                    <input type="email" ngModel name="email"
+                                        class="text-white form-control bg-transparent" id="email"
+                                        placeholder="Your Email">
+                                    <label class="text-white" for="email">Your Email</label>
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+                                <div class="form-floating date" id="date3" data-target-input="nearest">
+                                    <input type="text" ngModel name="date"
+                                        class=" text-white form-control bg-transparent datetimepicker-input"
+                                        id="datetime" placeholder="Date & Time" data-target="#date3"
+                                        data-toggle="datetimepicker" />
+                                    <label class="text-white" for="datetime">Date & Time</label>
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+                                <div class="form-floating">
+                                    <select name="Destination" ngModel class=" form-select bg-transparent " id="select1"
+                                        placeholder="Destination">
+                                        <option value="1">Goa</option>
+                                        <option value="2">Manali</option>
+                                        <option value="3">simla</option>
+                                        <option value="4 ">indonesia</option>
+
+                                    </select>
+                                    <label class="text-dark bg-transparent" for="select1">Destination</label>
+                                </div>
+                            </div>
+                            <div class="col-12">
+                                <div class="form-floating">
+                                    <textarea class=" text-white form-control bg-transparent" name="textarea" ngModel
+                                        placeholder="Special Request" id="message" style="height: 100px"></textarea>
+                                    <label class="text-white" for="message">Special Request</label>
+                                </div>
+                            </div>
+                            <div class="col-12">
+                                <button (click)="showinfo()" type="menu" class="btn btn-outline-light w-100 py-3">Book
+                                    Now</button>
+                            </div>
+                        </div>
+                    </form>
+
+
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- Booking Start -->
